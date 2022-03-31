@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tien = +prompt("nhap so tien: ");
+    let laisuat = +prompt("nhap lai suat: ");
+    let soThang = +prompt("so thang gui tien: ");
+    let tongtien = laisuat * tien + tien;
+    for(let i = 2; i<= soThang;i++){
+        tongtien = tongtien*laisuat + tongtien;
+    }
+    alert(`tongtien: ${tongtien}`)
+</script>
+</body>
+</html>

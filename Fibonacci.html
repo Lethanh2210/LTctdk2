@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let total = 0;
+    let i = 0;
+    let j = 1;
+    let temp;
+    document.write(`${i},${j},`);
+
+    while(total <= 144){
+        total = i+j;
+        i = j;
+        j = total;
+        document.write(total + ',');
+    }
+</script>
+</body>
+</html>
